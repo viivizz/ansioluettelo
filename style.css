@@ -1,8 +1,11 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9f9;
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
 }
 
 header {
@@ -13,6 +16,36 @@ header {
 }
 
 main {
-  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
   background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+h1, h2,h3 {
+  color: #005bbb;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 0.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
 }
